@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function GridProduct() {
     return (
         <div className="lg:mx-20">
-            <h2 className="text-4xl font-black text-blood mt-16 mb-12">Let's Order</h2>
+            <h2 className="text-4xl font-black text-blood mt-16 mb-12">Lets Order</h2>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                 <Link href="/detail">
                     <div className="bg-pinky rounded-xl cursor-pointer">

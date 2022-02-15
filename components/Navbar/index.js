@@ -1,8 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Dropdown from '../Dropdown';
+import Dropdown from '../dropdown';
 
 export default function Navbar(props) {
     const router = useRouter();
